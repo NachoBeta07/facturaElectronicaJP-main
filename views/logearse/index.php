@@ -37,10 +37,6 @@
         <div class="caja__trasera bg-white mt-1 p-5 rounded-5 ">
         <label  class="text-center form-group fs-5 fw-bold">Seleccione La Empresa</label>
             <div class="caja__trasera-login">
-                <!-- <h3>¿Deseas Obtener una cuenta?</h3>
-                <p>Envia tus datos para que el Administrador cree tu cuenta</p> -->
-                
-            
                 <div >
                     <table class="table">
                         <thead class="table-success table-striped">
