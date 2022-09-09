@@ -1,0 +1,104 @@
+
+/* body{
+    background: #ffe259;
+    background: linear-gradient(to right, #9451ff, #2294ff)
+}
+main{
+    width: 50%;
+    padding: 15px;
+    margin: auto;
+    margin-top: 100px;
+}
+.contenedor_todo{
+    width: 100%;
+    max-width: 800px;
+    margin: 8% 10% 10% 25%;
+    position: relative;
+}
+.caja__trasera{
+    width: 110%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: end; 
+    
+    
+    
+}
+.caja__trasera div{
+    margin: 100px 40px;
+    color: rgb(0, 0, 0);
+    transition: all 500ms;
+}
+
+
+
+.contenedor__login_register{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    position: absolute;
+    left: 500px;
+  
+    
+}
+.contenedor__login_register form{
+    width: 100%;
+    padding: 80px 20px;
+    background: rgb(128, 178, 219);
+    position: absolute;
+    border-radius: 20px;
+} */
+body{
+    background: #ffe259;
+    background: linear-gradient(to right, #9451ff, #2294ff)
+}
+main{
+    width: 40%;
+    padding: 50px;
+    margin: auto;
+    margin-top: 100px;
+}
+.contenedor__todo{
+    width: 40rem;
+}
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+@media screen and (max-width: 850px){
+
+    main{
+        margin-top: 50px;
+    }
+
+    .caja__trasera{
+        max-width: 350px;
+        height: 300px;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .caja__trasera div{
+        margin: 0px;
+        position: absolute;
+    }
+
+
+    /*Formularios*/
+
+    .contenedor__login_register{
+        top: -10px;
+        left: -5px;
+        margin: auto;
+    }
+
+    .contenedor__login_register form{
+        position: relative;
+    }
+}
+
+
